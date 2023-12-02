@@ -1,0 +1,41 @@
+#img-flor {
+    width: auto;
+    min-height: 250px;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1.5;
+}
+
+.flor-pedra {
+    h3 {
+        border-top: 1px solid black;
+        font-size: $tamanho-do-texto;
+        background-color: beige;
+        color: rgb(156, 149, 235);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "robot";
+
+    }
+
+    h4 {
+        font-size: $tamanho-do-texto /2.5;
+        color: rgb(28, 19, 19);
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    p {
+        font-size: $tamanho-do-texto /3;
+        color: rgb(20, 14, 14);
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+}
